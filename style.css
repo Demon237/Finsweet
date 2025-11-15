@@ -1,0 +1,97 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    width: 100%;
+}
+
+#main {
+    height: 100%;
+    width: 100%;
+}
+/** Header **/
+#navber {
+    height: 10%;
+    width: 100%;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.nav-logo {
+    padding: 8.22px;
+    margin-left: 52.44px;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.nav-all-item {
+    padding-right: 100px;
+}
+
+.nav-all-item a {
+    text-decoration: none;
+    color: black;
+    margin: 15px;
+    font-size: 1.2rem;
+}
+
+.nav-btn {
+    background-color: #1D2130;
+    color: white;
+    height: 43px;
+    width: 115px;
+    border-radius: 4px;
+    border: none;
+}
+
+#page1_main {
+    height: 90%;
+    width: 100%;
+    background-color: grey;
+    background-image: url(Photos/BG\ Image.svg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+}
+
+.hero-text {
+    position: absolute;
+    color: white;
+    top: 195px;
+    left: 110px;
+    height: 250px;
+    width: 600px;
+    font-size: 2rem;
+}
+
+.hero-btn {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.hero-btn button {
+    height: 51px;
+    width: 148px;
+    border-radius: 4px;
+    border: none;
+    font-size: 1.2rem;
+}
+
+.hero-play {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+}
+
+.page2 {
+    height: 90%;
+    width: 100%;
+}
